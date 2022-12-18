@@ -9,4 +9,8 @@ public class EmployeeController {
 	public String welcome() {
 		return "Welcome Rajesh";
 	}
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello Rajesh";
+	}
 }
