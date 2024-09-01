@@ -13,4 +13,8 @@ public class EmployeeController {
 	public String hello() {
 		return "hello Rajesh";
 	}
+	@GetMapping("/master")
+	public String master() {
+		return "hello Master Rajesh";
+	}
 }
