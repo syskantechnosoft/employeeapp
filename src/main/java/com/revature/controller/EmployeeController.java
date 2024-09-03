@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 	@GetMapping("/greet")
 	public String welcome() {
-		return "Welcome Rajesh";
+		return "Welcome to SpringBoot";
 	}
 	@GetMapping("/hello")
 	public String hello() {
-		return "hello Rajesh";
+		return "hello World!!!";
 	}
 	@GetMapping("/master")
 	public String master() {
-		return "hello Master Rajesh";
+		return "hello Master";
 	}
 }
